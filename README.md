@@ -25,7 +25,6 @@ ZSH_THEME="logico"
 3.- Restart the terminal.
 
 
-![Screenshot](https://logico.com.ar/img/2019/03/9/20190309-1552180258_1055x687.png)
 ![Screenshot](https://logico.com.ar/img/2019/03/25/logico-zsh-theme.gif)
 
 ---
