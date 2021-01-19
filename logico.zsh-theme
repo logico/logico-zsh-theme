@@ -1,8 +1,8 @@
 local resetColor="%{$reset_color%}"
 local prefix="⬢"
-local dir="%{$fg_bold[black]%}%c$resetColor"
+local dir="%{$fg_bold[black]%}%c$resetColor$resetColor"
 
-PROMPT='%{$fg[black]%}$prefix $(ssh_connection)$dir $(git_prompt_info)'
+PROMPT='%{$fg_bold[black]%}$prefix $(ssh_connection)$dir $(git_prompt_info)'
 MODE_INDICATOR="%{$fg_bold[white]%}%{$bg[black]%} NORMAL %{$reset_color%}"
 
 function ssh_connection() {
